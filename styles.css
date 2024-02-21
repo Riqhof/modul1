@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .gold-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .gold-table th, .gold-table td {
+    border: 1px solid black;
+    padding: 5px;
+    background-color: gold;
+    color: black;
+  }
+  
+  .gold-table th {
+    font-weight: bold;
+  }
+  
+  .gold-table tbody tr:nth-child(even) {
+    background-color: #ffd700; /* darker gold for alternate rows */
+  }
+  
